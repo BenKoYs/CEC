@@ -26,7 +26,7 @@ if %choix%==1 (
 goto site
 )
 if %choix%==2 (
-goto compiller
+goto compiler
 )
 if %choix%==3 (
 goto executer
@@ -42,7 +42,7 @@ goto begin
 start /min "%PROGRAMFILE%/Internet explorer/IE.exe" "https://benkoyy.github.io/benkoy"
 goto quit
  
-:compiller
+:compiler
 echo nom du fichier a compiler (n'oubliez pas l'extenssion .c):
 set /P nom=
 echo nom du fichier une fois compilee:
