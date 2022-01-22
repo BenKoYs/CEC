@@ -12,7 +12,7 @@ echo           yyyyy      o888bood8P'  `Y8bod8P' o888o o888o o888o  o888o `Y8bod
 echo.
 echo  1111111111111111111111111111
 echo  \ 1. Aller sur mon site    /
-echo  / 2. Compiller             \
+echo  / 2. Compiler              \
 echo  \ 3. Executer              /
 echo  / 4. Quitter               \
 echo  1111111111111111111111111111
@@ -43,9 +43,9 @@ start /min "%PROGRAMFILE%/Internet explorer/IE.exe" "https://benkoyy.github.io/b
 goto quit
  
 :compiller
-echo nom du fichier a compiller (n'oubliez pas l'extenssion .c):
+echo nom du fichier a compiler (n'oubliez pas l'extenssion .c):
 set /P nom=
-echo nom du fichier une fois compillee:
+echo nom du fichier une fois compilee:
 set /P nomc=
 echo Loading...
 gcc %nom% -o %nomc%
