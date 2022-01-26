@@ -45,7 +45,7 @@ goto quit
 :compiler
 echo nom du fichier a compiler (n'oubliez pas l'extenssion .c):
 set /P nom=
-echo nom du fichier une fois compilee:
+echo nom du fichier une fois compile:
 set /P nomc=
 echo Loading...
 gcc %nom% -o %nomc%
