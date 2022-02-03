@@ -39,7 +39,7 @@ goto begin
 
 
 :site
-start /min "%PROGRAMFILE%/Internet explorer/IE.exe" "https://benkoyy.github.io/benkoy"
+start /min "%PROGRAMFILE%/Internet explorer/IE.exe" "https://benkoys.github.io/benkoy"
 goto quit
  
 :compiler
